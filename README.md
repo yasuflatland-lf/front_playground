@@ -41,9 +41,17 @@ pnpm dev
 
 # Tips
 
+### Update Libraries at Once in Root
+
+[Refer this page](https://turborepo.com/docs/crafting-your-repository/managing-dependencies#install-dependencies-where-theyre-used). For example, run the command below in the root of monorepo.
+
+```
+pnpm up --recursive typescript@latest
+```
+
 ### Create shadcn components
 
-[Refer this page](https://turborepo.com/docs/guides/tools/shadcn-ui) for more details.
+[Refer this page](https://turborepo.com/docs/guides/tools/shadcn-ui).
 
 1. Navigate to `apps/playground`
 1. Run below.
