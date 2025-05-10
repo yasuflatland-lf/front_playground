@@ -1,14 +1,6 @@
-# Turborepo starter
+# Front Playground
 
-This Turborepo starter is maintained by the Turborepo core team.
-
-## Using this example
-
-Run the following command:
-
-```sh
-npx create-turbo@latest
-```
+This repo is for the playground of frontend development.
 
 ## What's inside?
 
