@@ -1,0 +1,21 @@
+{
+  "name": "Frontend Development",
+  "dockerFile": "Dockerfile",
+  "forwardPorts": [3000,3001],
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode",
+        "bradlc.vscode-tailwindcss",
+        "biomejs.biome",
+        "eamodio.gitlens",
+        "oderwat.indent-rainbow",
+        "ms-azuretools.vscode-docker",
+        "ms-vscode.vscode-terminal-manager",
+        "fabiospampinato.vscode-terminals"
+      ]
+    }
+  },
+  "remoteUser": "node"
+} 

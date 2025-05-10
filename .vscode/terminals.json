@@ -1,0 +1,22 @@
+{
+  "autorun": true,
+  "terminals": [
+    {
+      "icon": "code",
+      "name": "root",
+      "description": "run root",
+      "focus": true,
+      "commands": ["cd ./"],
+      "open": true
+    },
+    {
+      "icon": "rocket",
+      "name": "playground",
+      "description": "run playground",
+      "split": "root",
+      "focus": true,
+      "commands": ["cd apps/playground", "pnpm run dev"],
+      "open": true
+    }
+  ]
+}
