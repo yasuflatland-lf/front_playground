@@ -1,7 +1,7 @@
 {
   "name": "Frontend Development",
   "dockerFile": "Dockerfile",
-  "forwardPorts": [3000,3001],
+  "forwardPorts": [3000],
   "customizations": {
     "vscode": {
       "extensions": [
